@@ -29,17 +29,21 @@ header .judul {
   font-weight: bold;
   font-size: 40px;
 }
+header a {
+  color: inherit;
+  text-decoration: none;
+}
 
 header ul li {
   margin-top: 20px;
   display: inline-block;
 }
-header a {
+header ul li a {
   text-decoration: none;
   color: salmon;
   padding: 3px;
 }
-header a:hover {
+header ul li a:hover {
   color: white;
   background-color: lightskyblue;
 }
